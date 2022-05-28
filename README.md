@@ -8,7 +8,6 @@ In short, regex is a tool for finding patterns within a string. It is most commo
 - [Quantifiers](#quantifiers)
 - [Anchors](#anchors)
 - [Lookarounds](#lookarounds)
-- [Modifiers](#modifiers)
 - [Logical OR](#logical-or)
 - [Flags](#flags)
 
@@ -30,8 +29,14 @@ Quantifiers appear after a pattern and set the limits or boundaries that must be
 - {min, max} = explicit counts of pattern
 
 ### Anchors
-### Lookarounds
-### Modifiers
+Anchors help us match how items begin or end. For example: 
+- ^ - Matches the beginning of the group example ^A will select every A that is at the beginning of every group.
+- $ - Matches the end of a group. for example t$. In the sentance "the green hat" it would match with the t at the end of hat. 
+
+### Lookarounds 
+Look arounds are also known as look ahead or look behinds. It allows us to search for a specific word or function and match with the characters immediately before or immediately after. 
+- cat(?=puppy) - would match if cat is immediately followed by puppy. 
+- (?<=cat)puppy - would match if puppy is immediately preceded by puppy. 
 
 ### Logical OR and Grouping
 A vertical bar or | is used a logical OR this allows us to search for data that could appear in different orders. This is often used with () or grouping to provide the most useful matches. 

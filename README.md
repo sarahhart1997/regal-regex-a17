@@ -1,4 +1,6 @@
 # The Regal Regex
+## Introduction
+Have you every been incredibly frustrated by searching through your code for hours for one specific function? Unable to run a find request because you want to a select variety of combinations? This is where Regex functions come extremely in handy! 
 
 ## Summary
 In short, regex is a tool for finding patterns within a string. It is most commonly used to validate user input and to search through large bodies of text. 

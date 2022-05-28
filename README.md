@@ -16,7 +16,19 @@ In short, regex is a tool for finding patterns within a string. It is most commo
 Now that we understand the valuable uses of these functions let's learn how to use them! 
 
 ### Character Classes
+Character classes search for patterns based on the what that item is. Instead of trying to match specific characters or patterns. Common examples of this include: 
+- /d - Matches any number (0-9)
+- /w - Matches any word
+- [] - Allows you to match custom character sets such as [A-D]. Search for every instance of that character [ABC] seperately or adding ^ will match every character except A, B and C in [^ABC]
+
 ### Quantifiers 
+Quantifiers appear after a pattern and set the limits or boundaries that must be fufilled in order for that string to be matched. 
+
+- ? = Allows a pattern 0 or 1 times
+- * = Allows 0 or many times
+- + = Allows 1 or more times 
+- {min, max} = explicit counts of pattern
+
 ### Anchors
 ### Lookarounds
 ### Modifiers
